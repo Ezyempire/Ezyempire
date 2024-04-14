@@ -55,6 +55,7 @@ Configure
 - paste same url of your github
 - poll SCM ( * * * * *)
 - PRE  steps 
+anali
  - sonar.projectKey= hello-world 
    sonar.exclusions=**/*.java
 - Root POM (goals and options)
