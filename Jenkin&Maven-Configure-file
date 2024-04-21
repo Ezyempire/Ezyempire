@@ -31,6 +31,7 @@ https://docs.ansible.com/ansible/latest/collections/ansible/builtin/service_modu
         enabled: yes
 
 #Ansible playbook  to install Java-17 using dnf
+site: https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/amazon-linux-install.html
 https://docs.ansible.com/ansible/latest/collections/ansible/builtin/dnf_module.html
     - name: Install  java 17 
       ansible.builtin.dnf:
