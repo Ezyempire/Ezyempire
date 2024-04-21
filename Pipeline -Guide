@@ -8,7 +8,7 @@ Go to Sonarqube
 Jenkins 
 * manage Jenkins 
 - credencials 
--click on gooble
+-click on global
 -add credencials 
 - chose kind and select secret text
 - paste token (sonar)
@@ -18,6 +18,7 @@ Jenkins
 - plugins 
 - available plugins
 - search and add sonarqube scanner and install 
+
 * manage Jenkins 
 - Tools 
 - add sonarqube scanner 
@@ -27,7 +28,7 @@ apply and save
 * manage Jenkins 
 -system 
 -sonarqube server  
-- click add sonar (abd give a name)
+- click add sonar (add give a name)
 - copy url of sonarqube 
 - add sonar ID
 
@@ -70,9 +71,9 @@ Note: connect your Jenkins instance to Git bash and login your docker hub with s
 connect your K3s instance to git bash 
 - vim your deployment file 
 - kubectl get nodes
+- kubectl apply -f file name
 - kubectl get pods
 to delete deployment file = kubectl delete -f (file name)
-kubectl apply -f file name
 
 * Manage jenkins 
 - plugins 
